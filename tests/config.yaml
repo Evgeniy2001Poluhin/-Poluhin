@@ -1,0 +1,8 @@
+@"
+# Базовые настройки
+default_lifetime: 24  # часы
+default_visits: 10
+min_visits: 1
+max_visits: 100
+url_length: 6
+"@ | Out-File -FilePath "config.yaml" -Encoding UTF8
